@@ -9,6 +9,11 @@ body{
 }
 .shout{
     color:rgb(255, 255, 255);
+    text-align:center
+}
+.id{
+    color:rgb(130, 130, 130);
+    opacity:100%;
 }
 
 h1{
@@ -25,8 +30,11 @@ h1{
 }
 h2{
     margin-right:100px;
-    margin-left:200px;
-    text-align: center;
+    margin-left:250px;
+    margin-bottom:20px;
+    margin-top:100px;
+    text-align: left;
+    font-size: px;
 }
 
 h3{
@@ -34,6 +42,7 @@ h3{
     margin-right:100px;
     margin-left:200px;
     margin-bottom: 40px;
+    margin-top: 100px;
     border-bottom: 100px solid rgb(255, 255, 255);
     text-align: center;
 }
@@ -42,7 +51,7 @@ p{
     margin-left: 500px;
     margin-right: 300px;
     margin-bottom: 50px;
-    margin-top: 50px;
+    margin-top: 0px;
     font-size: 20px
 }
 
@@ -66,4 +75,5 @@ li{
     opacity: 100%;
     font-style:Sans-serif;
     border-radius: 20px;
-  }
+}
+
