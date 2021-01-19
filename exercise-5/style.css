@@ -1,0 +1,50 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .marquee {
+    width: 100%;
+    background: rgb(0, 0, 0);
+    color:white;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    position:absolute;
+    top:0;
+  }
+
+  .marquee1{
+    width: 100%;
+    background: rgb(0, 0, 0);
+    color:white;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    position:absolute;
+    bottom:0;
+  }
+  
+  .marquee div {
+    font-size: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 100%;
+    display: inline-block;
+    animation: animate 4s linear infinite;
+  }
+  .marquee1 div {
+    font-size: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 100%;
+    display: inline-block;
+    animation: animate 4s linear infinite reverse;
+  }
+  
+  @keyframes animate {
+    100% {
+      transform: translate(-100%, 0);
+    }
+  }
+  
