@@ -6,13 +6,13 @@ function setup() {
 
   var protection = 0;
 
-  while (circles.length < 200){
+  while (circles.length < 100){
   
 
     var circle = {
       x: random(width),
       y: random(height),
-      r:random (12,80)
+      r:random (9,100)
     };
 
     var overlapping = false;
@@ -38,7 +38,7 @@ function setup() {
 
 
   for (var i=0; i < circles.length; i++){
-    fill(random(255), random(255), random(255));
+    fill(random(50,255), random(150,255), random(200,255), random(255));
     noStroke();
     ellipse(circles[i].x,circles[i].y,circles[i].r*2,circles[i].r*2);
   }
